@@ -1,0 +1,21 @@
+.header {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.logo {
+    height: 50px; /* Adjust as needed */
+}
+
+.title-container {
+    /* Additional styling if needed */
+}

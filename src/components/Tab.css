@@ -1,0 +1,15 @@
+.tab {
+    margin-top: 10px;
+}
+
+.tab button {
+    background-color: white;
+    color: black;
+}
+
+.tab-content {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: none;
+}
