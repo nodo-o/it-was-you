@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import './Tab.css';
 
-function Tab({ title, content }) {
+function Tab({players}) {
     const [isOpen, setIsOpen] = useState(false);
+
+    console.log(players)
 
     return (
         <div className="tab">
             <button onClick={() => setIsOpen(!isOpen)}>
-                {title}
+                {players[0].name}
             </button>
-            {isOpen && <div className="tab-content">{content}</div>}
+            {isOpen && <div className="tab-content">{players[0].position}</div>}
         </div>
     );
 }

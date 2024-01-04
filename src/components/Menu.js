@@ -1,11 +1,14 @@
 import React from 'react';
 import './Menu.css';
 
-function Menu({ onSelect }) {
+function Menu({ menuEntry, onSelect }) {
     return (
         <div className="menu">
-            <button onClick={() => onSelect('characters')}>Characters</button>
-            <button onClick={() => onSelect('lore')}>Lore</button>
+            {Object.keys(menuEntry).map(key => (
+                <button key={key} onClick={() => onSelect(key)}>
+                    {key.toLocaleUpperCase()}
+                </button>
+            ))}
         </div>
     );
 }
