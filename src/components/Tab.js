@@ -1,17 +1,25 @@
 import React, { useState } from 'react';
 import './Tab.css';
 
-function Tab({players}) {
-    const [isOpen, setIsOpen] = useState(false);
+function Tab({ players }) {
+    const [openTab, setOpenTab] = useState(null);
 
-    console.log(players)
+    const toggleTab = (index) => {
+        setOpenTab(openTab === index ? null : index);
+    };
 
     return (
-        <div className="tab">
-            <button onClick={() => setIsOpen(!isOpen)}>
-                {players[0].name}
-            </button>
-            {isOpen && <div className="tab-content">{players[0].position}</div>}
+        <div>
+            {players.map((player, index) => (
+                <div key={index} className="tab">
+                    <button onClick={() => toggleTab(index)}>
+                        {player.name}
+                    </button>
+                    {openTab === index && (
+                        <div className="tab-content">{player.position}</div>
+                    )}
+                </div>
+            ))}
         </div>
     );
 }

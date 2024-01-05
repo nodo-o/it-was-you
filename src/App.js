@@ -8,10 +8,25 @@ function App() {
 
   const meiji = {
       title: 'Meiji',
-      players: [
-          { name: 'Miyuki', position: 'Catcher' },
-          // More characters...
-      ]}
+      groups: {
+          team: { title:'Team',
+              players: [
+                  { name: 'Miyuki', position: 'Catcher' },
+                  // More characters...
+              ]},
+      coaches: {title: 'Coaches',
+          players: [
+        { name: 'Suzuki', position: 'Bullpen Coach' },
+        { name: 'Yamamoto', position: 'Trainer' }
+    ]},
+      managers: {
+              title: 'Managers',
+          players: [
+              { name: 'Watanabe Hisashi', position: 'Analyst' },
+              // More characters...
+          ]}
+      }}
+
 
     const seidou = {
       title: 'Seidou',
@@ -19,12 +34,6 @@ function App() {
             { name: 'Sawamura', position: 'Pitcher' },
             // More characters...
         ]}
-
-
-
-  //const tabsData = {
-    //characters: [meiji, seidou], about: [meiji, seidou],
-  //};
 
 
     const tabsData2 = {
