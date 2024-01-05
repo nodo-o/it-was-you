@@ -11,7 +11,7 @@ function App() {
       groups: {
           team: { title:'Team',
               players: [
-                  { name: 'Miyuki Kazuya', role: 'Catcher', details: '3rd year | Pretty Boy', photo:'/Miyuki.PNG'},
+                  { name: 'Miyuki Kazuya', role: 'Catcher', details: '3rd year | Pretty Boy', photo:'/Miyukix.PNG'},
                   { name: 'Kuramochi Youichi', role: 'Shortstop', details: '3rd year | Pretty Boy', photo:'/Mochi.JPG'}
                   // More characters...
               ]},
