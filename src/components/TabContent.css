@@ -14,5 +14,10 @@
 }
 
 .player-details {
+    font-family: monospace;
     flex-grow: 1;
+}
+.affiliation-text {
+    font-family: monospace;
+    font-size: 10px; /* Example: smaller font size */
 }

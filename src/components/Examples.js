@@ -10,16 +10,11 @@ export default function Examples({tab}) {
   console.log(tab)
 
   function handleSelect(selectedButton) {
-    // selectedButton => 'components', 'jsx', 'props', 'state'
     setSelectedTopic(selectedButton);
-    // console.log(selectedTopic);
   }
 
   let tabContent = <p></p>;
-
-
-
-    if (selectedTopic) {
+    if (selectedTopic && tab[selectedTopic]) {
         tabContent = (
             <div id="tab-content">
                 {tab[selectedTopic].groups
@@ -30,8 +25,7 @@ export default function Examples({tab}) {
         );
     }
 
-  return (
-      //loop for every key
+    return (
     <Section title="" id="examples">
         <Tabs
             buttons={

@@ -28,7 +28,9 @@ function Tab({ players }) {
                             name: player.name,
                             role: player.role,
                             details: player.details,
-                            photo: player.photo
+                            edu: player.edu,
+                            photo: player.photo,
+                            affiliation: player.affiliation
                         }} />
                     )}
                 </div>
