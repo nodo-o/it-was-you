@@ -1,5 +1,5 @@
 const ichigun = {
-     title:'Ichi-gun',
+     title:'Players',
         players: [
             { name: 'C | Miyuki Kazuya',
                 role: 'Catcher | 3rd year | Tokyo',
@@ -18,33 +18,128 @@ const ichigun = {
             { name: 'RHP | Amahisa Kousei',
                 role: 'Pitcher | 3rd year | Tokyo',
                 details: 'Throws Right',
-                edu: 'School of Information and Communication, Meiji University | Seidou High School ',
+                edu: 'School of Information and Communication, Meiji University | Ichidai Sankou High School ',
                 affiliation: 'Tokyo Six University Baseball Federation',
                 photo:'/Amahisa.JPG'
             },
             { name: 'RHP | Umemiya Seiichi',
                 role: 'Pitcher | 3rd year | Tokyo',
                 details: 'Throws Right',
+                edu: 'Management, School of Commerce, Meiji University | Ugumori High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'LHP | Ise Nobuyuki',
+                role: 'Pitcher | 4rd year | Osaka',
+                details: 'Throws Right',
+                edu: 'Management, School of Commerce, Meiji University | Osaka Toin High School',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'CF | Mino Atsushi',
+                role: 'Center Fielder | 4rd year | Tokyo',
+                details: 'Throws Right',
                 edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: '1B | Aso Orochi',
+                role: '1st Baseman | 4rd year | Tokyo',
+                details: 'Throws Right',
+                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: '2B | Mori Satoru',
+                role: '2nd Baseman | 4rd year | Tokyo',
+                details: 'Throws Right',
+                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: '3B | Ooto Keiji',
+                role: '3rd Baseman | 4rd year | Tokyo',
+                details: 'Throws Right',
+                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'LF | Nagata Jiro',
+                role: 'Left Fielder | 2nd year | Tokyo',
+                details: 'Throws Right',
+                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'RF | Okada Hajime',
+                role: 'Right Fielder | 2nd year | Tokyo',
+                details: 'Throws Right',
+                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'C | Masu Shinichirou',
+                role: 'Catcher | 4rd year | Tokyo',
+                details: 'Throws Right, Bats Left',
+                edu: 'Management, School of Commerce, Meiji University | Seikou Academy High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'C | Imamura Yoshio',
+                role: 'Catcher | 2nd year | Tokyo',
+                details: 'Throws Right, Bats Left',
+                edu: 'Management, School of Commerce, Meiji University | Seikou Academy High School ',
                 affiliation: 'Tokyo Six University Baseball Federation',
                 photo:'/Amahisa.JPG'
             },
 
         ]};
 
-const nigun = {
-    title:'Ni-gun',
-        players: [
-            { name: 'Miyuki Kazuya', role: 'Catcher', details: '3rd year | Pretty Boy', photo:'/Miyuki.PNG'},
-            { name: 'Kuramochi Youichi', role: 'Shortstop', details: '3rd year | Pretty Boy', photo:'/Mochi.JPG'}
-            // More characters...
-        ]};
-
 const coaches =
     {title: 'Coaches',
         players: [
-            { name: 'Suzuki', position: 'Bullpen Coach' },
-            { name: 'Yamamoto', position: 'Trainer' }
+            { name: 'Shimono Ken',
+                role: 'Head Coach | Director',
+                details: 'Throws Right, Bats Left',
+                edu: 'Management, School of Commerce, Meiji University | Seikou Academy High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'Suzuki Hideo',
+                role: 'Bullpen Coach',
+                details: 'Throws Right, Bats Left',
+                edu: 'Management, School of Commerce, Meiji University | Seikou Academy High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'Namashita Yoshio',
+                role: 'Batters Coach',
+                details: 'Throws Right, Bats Left',
+                edu: 'Management, School of Commerce, Meiji University | Seikou Academy High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'Yamamoto Susumu',
+                role: 'Bullpen Coach',
+                details: 'Throws Right, Bats Left',
+                edu: 'Management, School of Commerce, Meiji University | Seikou Academy High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'Akagi Satoshi',
+                role: 'Physical Therapist',
+                details: 'Throws Right, Bats Left',
+                edu: 'Management, School of Commerce, Meiji University | Seikou Academy High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
+            { name: 'Tanaka Ryo',
+                role: 'Manager Director',
+                details: 'Administer Club Press',
+                edu: 'Management, School of Commerce, Meiji University | Seikou Academy High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Amahisa.JPG'
+            },
         ]};
 
 const managers = {
@@ -64,13 +159,34 @@ const managers = {
                 affiliation: 'Tokyo Six University Baseball Federation',
                 photo:'/Nao.JPG'
             },
+            { name: 'Adachi Mi',
+                role: 'Analyst & Student Coach | 3rd year | Tokyo',
+                details: '/',
+                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Nao.JPG'
+            },
+            { name: 'Nii Michi',
+                role: 'Analyst & Student Coach | 3rd year | Tokyo',
+                details: '/',
+                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Nao.JPG'
+            },
+            { name: 'Asahi Sadao',
+                role: 'Analyst & Student Coach | 3rd year | Tokyo',
+                details: '/',
+                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Nao.JPG'
+            },
+
         ]};
 
 export const MEIJI = {
     title: 'Meiji',
     groups: {
         ichigun: ichigun,
-        nigun: nigun,
         managers: managers,
         coaches: coaches
     }};
