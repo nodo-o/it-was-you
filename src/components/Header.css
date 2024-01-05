@@ -1,6 +1,6 @@
 .header {
     background-color: white;
-    color: black;
+    color: gray;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -8,14 +8,14 @@
     align-items: center;
 }
 
-.h2 {
+.p {
     font-size: 10px;
     font-family: monospace;
 }
 
 .logo-container {
     margin-top: 32px;
-    margin-bottom: 8px; /* Adjust as needed */
+    margin-bottom: 0; /* Adjust as needed */
 }
 
 .logo {

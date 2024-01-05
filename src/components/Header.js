@@ -8,7 +8,7 @@ function Header() {
                 <img src={`${process.env.PUBLIC_URL}/iwy-logo.png`} alt="Logo" className="logo" />
             </div>
             <div className="title-container">
-                <h2>It was you</h2>
+                <p>It was you</p>
             </div>
         </div>
     );

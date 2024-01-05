@@ -4,9 +4,18 @@ import Menu from './components/Menu';
 import Examples from "./components/Examples";
 import { MEIJI } from './characters.js';
 import { SEIDOU } from './characters.js';
+import Footer from "./components/Footer";
 
 function App() {
-  const [selectedMenu, setSelectedMenu] = useState('');
+  const [selectedMenu, setSelectedMenu] = useState(null);
+
+    const handleSelect = (key) => {
+        if (selectedMenu === key) {
+            setSelectedMenu(null);  // Deselect if the same button is clicked
+        } else {
+            setSelectedMenu(key);  // Select the new button
+        }
+    };
 
   const meiji = MEIJI;
   const seidou = SEIDOU;
@@ -27,13 +36,16 @@ function App() {
       <div>
           <main>
         <Header />
-          <Menu menuEntry={tabsData2} onSelect={(menu) => setSelectedMenu(menu)} />
-          {selectedMenu && tabsData2[selectedMenu] ? (
+              <Menu menuEntry={tabsData2} onSelect={handleSelect} selected={selectedMenu} />
+
+              {selectedMenu && tabsData2[selectedMenu] ? (
               <Examples tab={tabsData2[selectedMenu]} />
           ) : (
               <div>Select a menu item</div>
           )}
+              <Footer />
           </main>
+
       </div>
   );
 }
