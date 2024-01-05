@@ -17,7 +17,10 @@ function Tab({ players }) {
         <div>
             {players.map((player, index) => (
                 <div key={index} className="tab">
-                    <button onClick={() => toggleTab(index)}>
+                    <button
+                        onClick={() => toggleTab(index)}
+                        className={openTabs.includes(index) ? 'tab-button-open' : 'tab-button'}
+                    >
                         {player.name}
                     </button>
                     {openTabs.includes(index) && (

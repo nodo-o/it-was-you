@@ -1,17 +1,32 @@
 .tab {
+    font-family: monospace;
 }
 
-.tab button {
-    border: 2px solid black; /* Black border with 2px thickness */
-    border-radius: 10px; /* Rounded corners, adjust radius as needed */
-    padding: 5px 15px; /* Padding inside the button */
-    background-color: white; /* Button background color */
-    color: black; /* Text color */
-    font-size: 12px; /* Text font size */
-    cursor: pointer; /* Cursor changes to a pointer to indicate it's clickable */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-    margin: 5px;
+.tab-button {
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+    padding: 5px 15px;
+    background-color: gainsboro;
+    color: gray;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+    font-family: monospace;
 }
+
+.tab-button-open {
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px 15px;
+    background-color: white;
+    color: gray;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+    font-family: monospace;}
+
 
 .tab-content {
     background-color: white;

@@ -10,10 +10,11 @@
     padding: 10px 15px; /* Padding inside the button */
     background-color: white; /* Button background color */
     color: grey; /* Text color */
-    font-size: 16px; /* Text font size */
+    font-size: 14px; /* Text font size */
     cursor: pointer; /* Cursor changes to a pointer to indicate it's clickable */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
     margin: 10px;
+    font-family: monospace;
 }
 
 .menu button:hover {

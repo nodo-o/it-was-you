@@ -11,6 +11,7 @@ main {
   width: 90%;
   max-width: 50rem;
   margin: auto;
+  font-family: monospace;
 }
 
 code {
@@ -36,12 +37,12 @@ code {
 
 #examples menu button {
   padding: 0.5rem 1rem;
-  border: 2px solid black;
+  border: 2px solid gainsboro;
   border-radius: 10px;
-  background-color: transparent;
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 1rem;
+  background-color: white;
+  color: gray;
+  font-family: monospace;
+  font-size: 14px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
@@ -49,19 +50,20 @@ code {
 #examples menu button:hover {
   background-color: whitesmoke;
   border: 2px solid whitesmoke;
-  color: black;
+  color: gray;
 }
 
 #examples menu button.active {
-  background-color: black;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  color: gray;
 }
 
 #tab-content {
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   border-radius: 6px;
   background-color: whitesmoke;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);*/
 }
 
 #tab-content h3 {

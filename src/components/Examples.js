@@ -15,7 +15,7 @@ export default function Examples({tab}) {
     // console.log(selectedTopic);
   }
 
-  let tabContent = <p>Please select a topic.</p>;
+  let tabContent = <p></p>;
 
 
 
@@ -33,7 +33,6 @@ export default function Examples({tab}) {
   return (
       //loop for every key
     <Section title="" id="examples">
-
         <Tabs
             buttons={
                 <>

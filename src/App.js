@@ -41,7 +41,7 @@ function App() {
               {selectedMenu && tabsData2[selectedMenu] ? (
               <Examples tab={tabsData2[selectedMenu]} />
           ) : (
-              <div>Select a menu item</div>
+              <div></div>
           )}
               <Footer />
           </main>
