@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
-import './Tab.css';
 import TabContent from "./TabContent";
+import "./Tab.css"
 
 function Tab({ players }) {
-    const [openTab, setOpenTab] = useState(null);
+    const [openTabs, setOpenTabs] = useState([]);
 
     const toggleTab = (index) => {
-        setOpenTab(openTab === index ? null : index);
+        if (openTabs.includes(index)) {
+            setOpenTabs(openTabs.filter(i => i !== index)); // Close the tab
+        } else {
+            setOpenTabs([...openTabs, index]); // Open the tab
+        }
     };
 
     return (
@@ -16,7 +20,7 @@ function Tab({ players }) {
                     <button onClick={() => toggleTab(index)}>
                         {player.name}
                     </button>
-                    {openTab === index && (
+                    {openTabs.includes(index) && (
                         <TabContent player={{
                             name: player.name,
                             role: player.role,

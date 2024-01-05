@@ -2,39 +2,14 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Examples from "./components/Examples";
+import { MEIJI } from './characters.js';
+import { SEIDOU } from './characters.js';
 
 function App() {
   const [selectedMenu, setSelectedMenu] = useState('');
 
-  const meiji = {
-      title: 'Meiji',
-      groups: {
-          team: { title:'Team',
-              players: [
-                  { name: 'Miyuki Kazuya', role: 'Catcher', details: '3rd year | Pretty Boy', photo:'/Miyukix.PNG'},
-                  { name: 'Kuramochi Youichi', role: 'Shortstop', details: '3rd year | Pretty Boy', photo:'/Mochi.JPG'}
-                  // More characters...
-              ]},
-      coaches: {title: 'Coaches',
-          players: [
-        { name: 'Suzuki', position: 'Bullpen Coach' },
-        { name: 'Yamamoto', position: 'Trainer' }
-    ]},
-      managers: {
-              title: 'Managers',
-          players: [
-              { name: 'Watanabe Hisashi', role: 'Analyst', details: '3rd year | Pretty Boy', photo:'/Nabe.JPG'},
-              // More characters...
-          ]}
-      }}
-
-
-    const seidou = {
-      title: 'Seidou',
-        players: [
-            { name: 'Takigawa Chris Yuu', role: 'Catcher', details: 'Orix Buffaloes', photo:'/Chris.JPG'},
-            // More characters...
-        ]}
+  const meiji = MEIJI;
+  const seidou = SEIDOU;
 
 
     const tabsData2 = {
