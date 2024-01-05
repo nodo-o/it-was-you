@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Tab.css';
+import TabContent from "./TabContent";
 
 function Tab({ players }) {
     const [openTab, setOpenTab] = useState(null);
@@ -16,7 +17,12 @@ function Tab({ players }) {
                         {player.name}
                     </button>
                     {openTab === index && (
-                        <div className="tab-content">{player.position}</div>
+                        <TabContent player={{
+                            name: player.name,
+                            role: player.role,
+                            details: player.details,
+                            photo: player.photo
+                        }} />
                     )}
                 </div>
             ))}

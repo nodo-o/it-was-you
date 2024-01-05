@@ -11,7 +11,8 @@ function App() {
       groups: {
           team: { title:'Team',
               players: [
-                  { name: 'Miyuki', position: 'Catcher' },
+                  { name: 'Miyuki Kazuya', role: 'Catcher', details: '3rd year | Pretty Boy', photo:'/Miyuki.PNG'},
+                  { name: 'Kuramochi Youichi', role: 'Shortstop', details: '3rd year | Pretty Boy', photo:'/Mochi.JPG'}
                   // More characters...
               ]},
       coaches: {title: 'Coaches',
@@ -22,7 +23,7 @@ function App() {
       managers: {
               title: 'Managers',
           players: [
-              { name: 'Watanabe Hisashi', position: 'Analyst' },
+              { name: 'Watanabe Hisashi', role: 'Analyst', details: '3rd year | Pretty Boy', photo:'/Nabe.JPG'},
               // More characters...
           ]}
       }}
@@ -31,7 +32,7 @@ function App() {
     const seidou = {
       title: 'Seidou',
         players: [
-            { name: 'Sawamura', position: 'Pitcher' },
+            { name: 'Takigawa Chris Yuu', role: 'Catcher', details: 'Orix Buffaloes', photo:'/Chris.JPG'},
             // More characters...
         ]}
 

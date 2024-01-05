@@ -1,0 +1,17 @@
+.tab-content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.player-photo img {
+    width: 100px; /* Adjust as necessary */
+    height: 100px; /* Adjust as necessary */
+    object-fit: cover; /* Keeps the aspect ratio */
+    border-radius: 50%; /* Optional: makes the photo circular */
+    margin-right: 20px;
+}
+
+.player-details {
+    flex-grow: 1;
+}
