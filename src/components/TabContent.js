@@ -16,9 +16,9 @@ function TabContent({ player }) {
                 <h3>{getNameAfterPipe(player.name)}</h3>
                 <p>{player.role}</p>
             <div className="affiliation-text">
-                <p>{player.details}</p>
-                <p><b>Education:</b> {player.edu}</p>
-                <p><b>Affiliation:</b> {player.affiliation}</p>
+                {player.details && <p>{player.details}</p>}
+                {player.edu && <p><b>Education:</b> {player.edu}</p>}
+                {player.affiliation &&<p><b>Affiliation:</b> {player.affiliation}</p>}
             </div>
 
 
