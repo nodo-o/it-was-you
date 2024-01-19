@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubAlt } from'@fortawesome/free-brands-svg-icons'
 import { faTwitter } from'@fortawesome/free-brands-svg-icons'
 import { faBook } from '@fortawesome/free-solid-svg-icons'
-
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 function Footer() {
     return (
         <footer className="footer">
@@ -18,6 +18,9 @@ function Footer() {
                 </a>
                 <a href="https://archiveofourown.org/users/nodo" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faBook} />
+                </a>
+                <a href="https://archiveofourown.org/users/nodo" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faCoffee} />
                 </a>
             </div>
         </footer>

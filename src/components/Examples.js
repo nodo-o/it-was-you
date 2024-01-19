@@ -4,7 +4,7 @@ import TabButton from './TabButton.js';
 import Section from './Section.js';
 import Tabs from './Tabs.js';
 import Tab from "./Tab";
-
+import './Examples.css';
 export default function Examples({tab}) {
   const [selectedTopic, setSelectedTopic] = useState();
   console.log(tab)
@@ -21,6 +21,9 @@ export default function Examples({tab}) {
                     ? <Examples tab={tab[selectedTopic].groups} />
                     : <Tab players={tab[selectedTopic].players} />
                 }
+                {tab[selectedTopic].title === 'Main Characters' && (
+                    <img src={`${process.env.PUBLIC_URL}/kuramiyu.png`} alt="Main Characters" className="adjust-height"  />
+                )}
             </div>
         );
     }

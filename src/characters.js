@@ -1,34 +1,12 @@
+import { MIYUKI, KURAMOCHI, NABE, NAO, UMEMIYA, AMAHISA } from './profiles.js';
+
 const ichigun = {
      title:'Players',
         players: [
-            { name: 'C | Miyuki Kazuya',
-                role: 'Catcher | 3rd year | Tokyo',
-                details: 'Throws Right, Bats Left',
-                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
-                affiliation: 'Tokyo Six University Baseball Federation',
-                photo:'/Miyuki.PNG'
-            },
-            { name: 'SS | Kuramochi Youichi',
-                role: 'Shortstop | 3rd year | Ohara, Chiba Prefecture',
-                details: 'Throws Right, Bats Left/Right',
-                edu: 'Creative Business, School of Commerce, Meiji University | Seidou High School ',
-                affiliation: 'Tokyo Six University Baseball Federation',
-                photo:'/Mochi.JPG'
-            },
-            { name: 'RHP | Amahisa Kousei',
-                role: 'Pitcher | 3rd year | Tokyo',
-                details: 'Throws Right',
-                edu: 'Information and Communication, Meiji University | Ichidai Sankou High School ',
-                affiliation: 'Tokyo Six University Baseball Federation',
-                photo:'/Amahisa.JPG'
-            },
-            { name: 'RHP | Umemiya Seiichi',
-                role: 'Pitcher | 3rd year | Tokyo',
-                details: 'Throws Right',
-                edu: 'Management, School of Commerce, Meiji University | Ugumori High School ',
-                affiliation: 'Tokyo Six University Baseball Federation',
-                photo:'/Amahisa.JPG'
-            },
+            MIYUKI,
+            KURAMOCHI,
+            AMAHISA,
+            UMEMIYA,
             { name: 'LHP | Ise Nobuyuki',
                 role: 'Pitcher | 4rd year | Osaka',
                 details: 'Throws Left',
@@ -112,7 +90,7 @@ const coaches =
                 affiliation: 'Tokyo Six University Baseball Federation',
                 photo:'/Amahisa.JPG'
             },
-            { name: 'Namashita Yoshio',
+            { name: 'Namashita Tatsuji',
                 role: 'Batters Coach',
                 details: '',
                 edu: '',
@@ -145,24 +123,26 @@ const coaches =
 const managers = {
         title: 'Managers',
         players: [
-            { name: 'Watanabe Hisashi',
-                role: 'Analyst & Student Coach | 3rd year | Kanagawa',
-                details: '',
-                edu: 'Management, School of Commerce, Meiji University | Seidou High School ',
-                affiliation: 'Tokyo Six University Baseball Federation',
-                photo:'/Nabe.JPG'
-            },
-            { name: 'Matsubara Nao',
-                role: 'Analyst & Student Coach | 3rd year | Tokyo',
-                details: '',
-                edu: 'Data Science, Applied Mathematics, Meiji University | Ugumori High School',
-                affiliation: 'Tokyo Six University Baseball Federation',
-                photo:'/Nao.JPG'
-            },
+            NABE,
+            NAO,
             { name: 'Adachi Mi',
                 role: 'Analyst & Student Coach | 4th year | Iwate',
                 details: '',
                 edu: 'Business, School of Commerce, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Nao.JPG'
+            },
+            { name: 'Asahi Sadao',
+                role: 'Analyst & Student Coach | 4th year | Tokyo',
+                details: '',
+                edu: 'Information and Communication, Meiji University | Seidou High School ',
+                affiliation: 'Tokyo Six University Baseball Federation',
+                photo:'/Nao.JPG'
+            },
+            { name: 'Ueno Ken',
+                role: 'Chief Manager | 4th year | Tokyo',
+                details: '',
+                edu: 'Information and Communication, Meiji University | Seidou High School ',
                 affiliation: 'Tokyo Six University Baseball Federation',
                 photo:'/Nao.JPG'
             },
@@ -172,14 +152,7 @@ const managers = {
                 edu: 'Information Science, Engineering, Meiji University | Seidou High School ',
                 affiliation: 'Tokyo Six University Baseball Federation',
                 photo:'/Nao.JPG'
-            },
-            { name: 'Asahi Sadao',
-                role: 'Analyst & Student Coach | 4th year | Tokyo',
-                details: '/',
-                edu: 'Information and Communication, Meiji University | Seidou High School ',
-                affiliation: 'Tokyo Six University Baseball Federation',
-                photo:'/Nao.JPG'
-            },
+            }
 
         ]};
 
@@ -222,6 +195,9 @@ const uni = {
         }]
 };
 
+const main_p = {
+};
+
 const other = {
     title:'Other',
     players: [
@@ -241,3 +217,8 @@ export const SEIDOU ={
         university: uni,
         other: other
     }}
+
+export const MAIN ={
+    title: 'Main Characters',
+    players: [KURAMOCHI,MIYUKI]
+    }

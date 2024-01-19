@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Examples from "./components/Examples";
-import { MEIJI } from './characters.js';
-import { SEIDOU } from './characters.js';
+import { MEIJI, MAIN, SEIDOU } from './characters.js';
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,21 +16,26 @@ function App() {
         }
     };
 
-  const meiji = MEIJI;
-  const seidou = SEIDOU;
-
-
     const tabsData2 = {
         characters: {
-            meiji: meiji,
-            seidou: seidou
+            main: MAIN,
+            meiji: MEIJI,
+            seidou: SEIDOU
+        }
+    };
+/*
+    const tabsData2 = {
+        characters: {
+            main: MAIN,
+            meiji: MEIJI,
+            seidou: SEIDOU
         },
         about: {
-            meiji: meiji,
-            seidou: seidou
+            meiji: MEIJI,
+            seidou: SEIDOU
         },
     };
-
+*/
   return (
       <div>
           <main>
