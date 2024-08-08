@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Menu from './components/Menu';
 import Examples from "./components/Examples";
-import { MEIJI, MAIN, SEIDOU } from './characters.js';
-import Footer from "./components/Footer";
+import {MEIJI, MAIN, SEIDOU, OTHERS} from './characters.js';
+import Footer from "./components/Footer/Footer";
+import Tab from "./components/Tab";
+import Tabs from "./components/Tabs";
+import TabContent from "./components/TabContent";
+import TextContent from "./components/TextContent";
 
 function App() {
-  const [selectedMenu, setSelectedMenu] = useState(null);
+    const [selectedMenu, setSelectedMenu] = useState(null);
 
     const handleSelect = (key) => {
         if (selectedMenu === key) {
@@ -16,12 +20,14 @@ function App() {
         }
     };
 
-    const tabsData2 = {
+    const mainMenu = {
+        story: {},
         characters: {
             main: MAIN,
             meiji: MEIJI,
-            seidou: SEIDOU
-        }
+            others: OTHERS
+        },
+        trivia: {}
     };
 /*
     const tabsData2 = {
@@ -40,13 +46,11 @@ function App() {
       <div>
           <main>
         <Header />
-              <Menu menuEntry={tabsData2} onSelect={handleSelect} selected={selectedMenu} />
+              <Menu menuEntry={mainMenu} onSelect={handleSelect} selected={selectedMenu} />
 
-              {selectedMenu && tabsData2[selectedMenu] ? (
-              <Examples tab={tabsData2[selectedMenu]} />
-          ) : (
-              <div></div>
-          )}
+              {!selectedMenu ? <div></div> : (selectedMenu === 'characters' ?
+                  <Examples tab={mainMenu[selectedMenu]} /> : <TextContent />)}
+
               <Footer />
           </main>
 

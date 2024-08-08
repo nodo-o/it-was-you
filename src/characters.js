@@ -210,15 +210,12 @@ const other = {
         }]
 };
 
-export const SEIDOU ={
-    title: 'Ex-Seidou',
-    groups: {
-        npb: npb,
-        university: uni,
-        other: other
-    }}
+export const OTHERS ={
+    title: 'Others',
+    players: [KURAMOCHI,MIYUKI]
+}
 
 export const MAIN ={
-    title: 'Main Characters',
+    title: '♥︎',
     players: [KURAMOCHI,MIYUKI]
     }
