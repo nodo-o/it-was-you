@@ -30,9 +30,11 @@ function Tab({ players }) {
                             details: player.details,
                             edu: player.edu,
                             photo: player.photo,
-                            affiliation: player.affiliation
+                            affiliation: player.affiliation,
+                            ...(player.stats ? { stats: player.stats } : {})
                         }} />
                     )}
+
                 </div>
             ))}
         </div>

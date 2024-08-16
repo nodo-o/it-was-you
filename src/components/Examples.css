@@ -1,0 +1,7 @@
+.adjust-height {
+    height: 300px; /* Adjust this value to your desired height */
+    max-height: 300px; /* Optional: Adjust to your maximum height requirement */
+    min-height: 100px; /* Optional: Adjust to your minimum height requirement */
+    margin: 5px;
+
+}

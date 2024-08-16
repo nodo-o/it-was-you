@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header/Header';
 import Menu from './components/Menu';
 import Examples from "./components/Examples";
-import {MEIJI, MAIN, SEIDOU, OTHERS} from './characters.js';
+import {MEIJI, MAIN, SEIDO, OTHERS} from './characters.js';
 import Footer from "./components/Footer/Footer";
 import Tab from "./components/Tab";
 import Tabs from "./components/Tabs";
@@ -23,8 +23,8 @@ function App() {
     const mainMenu = {
         story: {},
         characters: {
-            main: MAIN,
             meiji: MEIJI,
+            exseidou: SEIDO,
             others: OTHERS
         },
         trivia: {}

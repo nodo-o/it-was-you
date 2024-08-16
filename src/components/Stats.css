@@ -1,0 +1,105 @@
+/* src/components/Stats.css */
+.stats {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.toggle-button {
+    font-family: "Courier New", serif;
+    padding: 8px 16px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 8px 8px 0 0; /* Top corners are rounded */
+    text-align: left; /* Align text to the left to match typical box appearance */
+    box-sizing: border-box;
+}
+
+.stats-content {
+    font-family: "Courier New", serif;
+    font-family: monospace;
+    display: flex;
+    gap: 16px;
+    padding: 12px;
+    background-color: whitesmoke;
+    border-radius: 0 0 8px 8px; /* Bottom corners are rounded */
+    border-top: none; /* Remove the top border to connect with the button */
+}
+
+.pitches-menu {
+    font-family: "Courier New", serif;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pitch-item {
+    padding: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    color: #333;
+    font-family: "Courier New", serif;
+}
+
+.pitch-item:hover {
+    background-color: #f0f0f0;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.pitch-details {
+    display: flex;
+    flex-direction: column; /* Stack title and content vertically */
+}
+
+.pitch-details h2 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 12px; /* Add space below the title */
+}
+
+.pitch-content {
+    display: flex; /* Use flexbox for side-by-side layout of image and description */
+    gap: 16px; /* Add space between the image and description */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.pitch-details img {
+    max-width: 150px; /* Set a maximum width for the image */
+    height: auto;
+    border-radius: 4px;
+}
+
+.pitch-details p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+    margin: 0;
+    font-family: "Courier New", serif;
+}
