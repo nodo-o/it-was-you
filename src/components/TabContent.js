@@ -1,11 +1,12 @@
 import React from 'react';
 import './TabContent.css';
-import Stats from "./Stats"; // Make sure to create this CSS file
+import Stats from "./Stats";
 
 function getNameAfterPipe(str) {
     let parts = str.split("|");
     return parts[1] || str; // Return an empty string if there's no part after the "|"
 }
+
 function TabContent({ player }) {
     console.log(player);
     return (
@@ -14,19 +15,21 @@ function TabContent({ player }) {
                 <div></div>
                 :
                 <>
-                    <div className="player-photo">
-                        <img src={`${process.env.PUBLIC_URL}${player.photo}`} alt={player.name} />
-                    </div>
-                    <div className="player-details">
-                        <h3>{getNameAfterPipe(player.name)}</h3>
-                        <p>{player.role}</p>
-                        <div className="affiliation-text">
-                            {player.details && <p>{player.details}</p>}
-                            {player.edu && <p><b>Education:</b> {player.edu}</p>}
-                            {player.affiliation &&<p><b>Affiliation:</b> {player.affiliation}</p>}
+                    <div className="player-info">
+                        <div className="player-photo">
+                            <img src={`${process.env.PUBLIC_URL}${player.photo}`} alt={player.name} />
                         </div>
-                        {player.stats && <Stats stats={player.stats} />}
+                        <div className="player-details">
+                            <h3>{getNameAfterPipe(player.name)}</h3>
+                            <p>{player.role}</p>
+                            <div className="affiliation-text">
+                                {player.details && <p>{player.details}</p>}
+                                {player.edu && <p><b>Education:</b> {player.edu}</p>}
+                                {player.affiliation &&<p><b>Affiliation:</b> {player.affiliation}</p>}
+                            </div>
+                        </div>
                     </div>
+                    {player.stats && <Stats stats={player.stats} />} {/* Move Stats outside of player-info */}
                 </>
             }
         </div>

@@ -18,7 +18,6 @@
     border-radius: 8px 8px 0 0; /* Top corners are rounded */
     text-align: left; /* Align text to the left to match typical box appearance */
     box-sizing: border-box;
-    width: 100%;
 }
 
 .stats-content {

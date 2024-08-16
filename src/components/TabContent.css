@@ -1,23 +1,49 @@
+/* src/components/TabContent.css */
 .tab-content {
     display: flex;
+    flex-direction: column; /* Stack elements vertically by default */
     align-items: center;
     padding: 10px;
     border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .player-photo img {
-    width: 100px; /* Adjust as necessary */
-    height: 100px; /* Adjust as necessary */
-    object-fit: cover; /* Keeps the aspect ratio */
-    border-radius: 50%; /* Optional: makes the photo circular */
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular photo */
     margin-right: 20px;
+}
+
+.player-info {
+    display: flex;
+    flex-direction: column; /* Stack photo and details vertically by default */
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px; /* Space between info and stats */
 }
 
 .player-details {
     font-family: monospace;
+    text-align: center; /* Center text for a unified look */
     flex-grow: 1;
+    margin-top: 10px; /* Space between photo and details */
 }
+
 .affiliation-text {
     font-family: monospace;
-    font-size: 10px; /* Example: smaller font size */
+    font-size: 10px; /* Smaller font size */
+}
+
+@media (min-width: 600px) {
+    .player-info {
+        flex-direction: row; /* Place photo and details side by side on larger screens */
+        align-items: flex-start;
+    }
+
+    .player-details {
+        text-align: left; /* Left-align text on larger screens */
+    }
 }
