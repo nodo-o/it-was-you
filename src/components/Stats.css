@@ -3,6 +3,8 @@
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 10px; /* Add padding to ensure content doesn't touch the edges */
 }
 
 .toggle-button {
@@ -16,17 +18,20 @@
     border-radius: 8px 8px 0 0; /* Top corners are rounded */
     text-align: left; /* Align text to the left to match typical box appearance */
     box-sizing: border-box;
+    width: 100%;
 }
 
 .stats-content {
     font-family: "Courier New", serif;
     font-family: monospace;
     display: flex;
+    flex-direction: column; /* Stack content on top of each other by default */
     gap: 16px;
     padding: 12px;
     background-color: whitesmoke;
     border-radius: 0 0 8px 8px; /* Bottom corners are rounded */
     border-top: none; /* Remove the top border to connect with the button */
+    box-sizing: border-box;
 }
 
 .pitches-menu {
@@ -37,6 +42,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 .pitch-item {
@@ -49,6 +55,7 @@
     transition: background-color 0.3s;
     color: #333;
     font-family: "Courier New", serif;
+    width: 100%;
 }
 
 .pitch-item:hover {
@@ -75,7 +82,8 @@
 
 .pitch-details {
     display: flex;
-    flex-direction: column; /* Stack title and content vertically */
+    flex-direction: column; /* Stack title and content vertically by default */
+    width: 100%;
 }
 
 .pitch-details h2 {
@@ -85,15 +93,18 @@
 }
 
 .pitch-content {
-    display: flex; /* Use flexbox for side-by-side layout of image and description */
+    display: flex;
+    flex-direction: column; /* Stack image and description vertically on mobile */
     gap: 16px; /* Add space between the image and description */
     align-items: flex-start; /* Align items at the top */
+    width: 100%;
 }
 
 .pitch-details img {
-    max-width: 150px; /* Set a maximum width for the image */
+    max-width: 100%; /* Ensure the image does not exceed its container width */
     height: auto;
     border-radius: 4px;
+    margin-bottom: 12px; /* Add space below the image */
 }
 
 .pitch-details p {
@@ -102,4 +113,17 @@
     color: #666;
     margin: 0;
     font-family: "Courier New", serif;
+    width: 100%;
+}
+
+/* Media Query for larger screens */
+@media (min-width: 600px) {
+    .stats-content {
+        flex-direction: row; /* Side-by-side layout on larger screens */
+    }
+
+    .pitch-content {
+        flex-direction: row; /* Place image and description side by side */
+        align-items: flex-start;
+    }
 }
