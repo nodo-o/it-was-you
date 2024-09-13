@@ -11,7 +11,7 @@ export const NAO = { name: 'Matsubara Nao',
     details: '',
     edu: 'Data Science, Applied Mathematics, Meiji University | Ugumori High School',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Nao.JPG'
+    photo:'/Nao.PNG'
 }
 
 export const ADACHI = { name: 'Adachi Mi',
@@ -20,6 +20,14 @@ export const ADACHI = { name: 'Adachi Mi',
     edu: 'Clinical Psychology, School of Arts and Letters, Meiji University | Iwate High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
     photo:'/Adachi.PNG'
+}
+
+export const AKEMI = { name: 'Sato Akemi',
+    role: 'Manager | 3rd year | Miyagi Prefecture',
+    details: '',
+    edu: 'Literature, School of Arts and Letters, Meiji University | Iwate High School ',
+    affiliation: 'Tokyo Six University Baseball Federation',
+    photo:'/Sato.PNG'
 }
 
 export const ASAHI = { name: 'Asahi Sadao',
@@ -43,13 +51,13 @@ export const NII = { name: 'Nii Michi',
     details: '',
     edu: 'Information Science, Engineering, Meiji University | Sendai Ikuei Gakuen High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Nii.JPG'
+    photo:'/Nii.PNG'
 }
 
-export const NASHITA = { name: 'SS | Nashita Daichi',
+export const NASHITA = { name: 'Nashita Daichi',
     role: 'Manager | 2nd year | Osaka Prefecture',
     details: 'Throws Right, Bats Left/Right',
     edu: 'Creative Business, School of Commerce, Meiji University | Riseisha High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Nashita.JPG'
+    photo:'/Nashita.PNG'
 }

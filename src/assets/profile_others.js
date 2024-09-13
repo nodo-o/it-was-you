@@ -12,7 +12,7 @@ export const SANADA = { name: 'RHP | Sanada Shunpei',
     details: 'Throws Right',
     edu: 'Sport and Wellness, Rikkyo University | Yakushi High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Sanada.JPG'
+    photo:'/Sanada.PNG'
 }
 
 export const CARLOS = { name: 'CF | Kamiya Carlos Toshiki',
@@ -20,7 +20,7 @@ export const CARLOS = { name: 'CF | Kamiya Carlos Toshiki',
     details: 'Throws Right, Bats Right',
     edu: 'Sport and Wellness, Rikkyo University | Inashiro Industrial ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Carlos.JPG'
+    photo:'/Carlos.PNG'
 }
 
 export const NAO = { name: 'Matsubara Nao',

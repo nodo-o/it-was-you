@@ -7,8 +7,8 @@ function Stats({ stats }) {
     const [selectedPitch, setSelectedPitch] = useState(null);
 
     const defaultPitch = {
-        name: "Pitching Arsenal",
-        photo: "default-image-url.jpg",  // Replace this with your default image URL
+        name: "Pitch",
+        photo: "/pitches/default.png",  // Replace this with your default image URL
         description: "Select a pitch to see details.",
     };
 

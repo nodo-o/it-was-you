@@ -14,7 +14,7 @@ import {
 import {CHRIS, HARUICHI, RYOUSUKE, SAWAMURA, TETSU} from "./assets/profile_seidou";
 import {CARLOS, MEI, NAO, SANADA} from "./assets/profile_others";
 import {AKAGI, NAMASHITA, SHIMONO, SUZUKI, TANAKA, YAMAMOTO} from "./assets/profile_coaches";
-import {ADACHI, ASAHI, NABE, NASHITA, NII, UENO} from "./assets/profile_managers";
+import {ADACHI, ASAHI, NABE, NASHITA, NII, UENO, AKEMI} from "./assets/profile_managers";
 
 const ichigun = {
      title: 'players',
@@ -25,7 +25,7 @@ const coaches = {title: 'coaches',
 
 const managers = {
         title: 'managers',
-        players: [NABE, NAO, ADACHI, ASAHI, UENO, NII, NASHITA]};
+        players: [NABE, NAO, ADACHI, UENO, ASAHI, AKEMI, NASHITA, NII]};
 
 export const MEIJI = {
     title: 'meiji',

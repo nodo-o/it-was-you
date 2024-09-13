@@ -1,4 +1,16 @@
-import {FASTBALL, FOURSEAM, SLIDER} from "./pitches";
+import {
+    CHANGEUP, CIRCLECHANGE,
+    CURVEBALL,
+    CUTTER,
+    FORK,
+    FOURSEAM,
+    PALMBALL,
+    SCREWBALL,
+    SLIDER,
+    SLURVE,
+    SPLITTER,
+    TWOSEAM
+} from "./pitches";
 
 export const MIYUKI = { name: 'C | Miyuki Kazuya',
     role: 'Catcher | 3rd year | Tokyo',
@@ -21,9 +33,9 @@ export const AMAHISA = { name: 'RHP | Amahisa Kousei',
     details: 'Throws Right',
     edu: 'Information and Communication, Meiji University | Ichidai Sankou High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Mochi.JPG',
+    photo:'/Amahisa.PNG',
     stats: {
-    pitch: [FOURSEAM, SLIDER]
+    pitch: [FOURSEAM, FORK, CURVEBALL, SLIDER],
     }
 }
 
@@ -32,7 +44,10 @@ export const UMEMIYA = { name: 'RHP | Umemiya Seiichi',
     details: 'Throws Right',
     edu: 'Management, School of Commerce, Meiji University | Ugumori High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Umemiya.PNG'
+    photo:'/Umemiya.PNG',
+    stats: {
+        pitch: [FOURSEAM, CURVEBALL, SLURVE, SCREWBALL],
+    }
 }
 
 export const ISE = { name: 'LHP | Ise Nobuyuki',
@@ -80,7 +95,7 @@ export const NAGATA = { name: 'LF | Nagata Jiro',
     details: 'Throws Left, Bats Left',
     edu: 'Global Business, School of Commerce, Meiji University | Seiko Gakuin High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Nagata.JPG'
+    photo:'/Nagata.PNG'
 }
 
 export const OKADA = { name: 'RF | Okada Hajime',
