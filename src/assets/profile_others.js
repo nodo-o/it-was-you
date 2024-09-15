@@ -23,11 +23,3 @@ export const CARLOS = { name: 'CF | Kamiya Carlos Toshiki',
     photo:'/Carlos.png'
 }
 
-export const NAO = { name: 'Matsubara Nao',
-    role: 'Analyst & Student Coach | 3rd year | Tokyo',
-    details: '',
-    edu: 'Data Science, Applied Mathematics, Meiji University | Ugumori High School',
-    affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Nao.JPG'
-}
-

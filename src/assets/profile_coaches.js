@@ -4,7 +4,7 @@ export const SHIMONO = { name: 'Shimono Ken',
     details: '',
     edu: '',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Shimono.PNG'
+    photo:'/Shimono.png'
 }
 
 export const SUZUKI = { name: 'Suzuki Hideo',
@@ -12,7 +12,7 @@ export const SUZUKI = { name: 'Suzuki Hideo',
     details: '',
     edu: '',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Suzuki.PNG'
+    photo:'/Suzuki.png'
 }
 
 export const NAMASHITA = { name: 'Namashita Tatsuji',
@@ -20,7 +20,7 @@ export const NAMASHITA = { name: 'Namashita Tatsuji',
     details: '',
     edu: '',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Namashita.PNG'
+    photo:'/Namashita.png'
 }
 
 export const YAMAMOTO = { name: 'Yamamoto Susumu',
@@ -28,7 +28,7 @@ export const YAMAMOTO = { name: 'Yamamoto Susumu',
     details: '',
     edu: '',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Yamamoto.PNG'
+    photo:'/Yamamoto.png'
 }
 
 export const AKAGI = { name: 'Akagi Satoshi',
@@ -36,7 +36,7 @@ export const AKAGI = { name: 'Akagi Satoshi',
     details: '',
     edu: '',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Akagi.PNG'
+    photo:'/Akagi.png'
 }
 
 export const TANAKA = { name: 'Tanaka Ryo',
@@ -44,5 +44,5 @@ export const TANAKA = { name: 'Tanaka Ryo',
         details: '',
         edu: '',
         affiliation: 'Tokyo Six University Baseball Federation',
-        photo:'/Tanaka.PNG'
+        photo:'/Tanaka.png'
     }

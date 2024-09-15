@@ -11,7 +11,7 @@ export const NAO = { name: 'Matsubara Nao',
     details: '',
     edu: 'Data Science, Applied Mathematics, Meiji University | Ugumori High School',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Nao.PNG'
+    photo:'/Nao.jpg'
 }
 
 export const ADACHI = { name: 'Adachi Mi',
@@ -19,7 +19,7 @@ export const ADACHI = { name: 'Adachi Mi',
     details: '',
     edu: 'Clinical Psychology, School of Arts and Letters, Meiji University | Iwate High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Adachi.PNG'
+    photo:'/Adachi.png'
 }
 
 export const AKEMI = { name: 'Sato Akemi',
@@ -27,7 +27,7 @@ export const AKEMI = { name: 'Sato Akemi',
     details: '',
     edu: 'Literature, School of Arts and Letters, Meiji University | Iwate High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Sato.PNG'
+    photo:'/Sato.png'
 }
 
 export const ASAHI = { name: 'Asahi Sadao',
@@ -35,7 +35,7 @@ export const ASAHI = { name: 'Asahi Sadao',
     details: '',
     edu: 'Business Law, School of Law, Meiji University | Meiji Nakano High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Asahi.PNG'
+    photo:'/Asahi.png'
 }
 
 export const UENO = { name: 'Ueno Ken',
@@ -43,7 +43,7 @@ export const UENO = { name: 'Ueno Ken',
     details: '',
     edu: 'School of Business Administration, Meiji University | Seiryo High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Ueno.PNG'
+    photo:'/Ueno.png'
 }
 
 export const NII = { name: 'Nii Michi',
@@ -51,7 +51,7 @@ export const NII = { name: 'Nii Michi',
     details: '',
     edu: 'Information Science, Engineering, Meiji University | Sendai Ikuei Gakuen High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Nii.PNG'
+    photo:'/Nii.png'
 }
 
 export const NASHITA = { name: 'Nashita Daichi',
@@ -59,5 +59,5 @@ export const NASHITA = { name: 'Nashita Daichi',
     details: 'Throws Right, Bats Left/Right',
     edu: 'Creative Business, School of Commerce, Meiji University | Riseisha High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Nashita.PNG'
+    photo:'/Nashita.png'
 }

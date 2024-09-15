@@ -12,9 +12,9 @@ import {
     OOTO, NAGATA, MASU
 } from './assets/profile_players.js';
 import {CHRIS, HARUICHI, RYOUSUKE, SAWAMURA, TETSU} from "./assets/profile_seidou";
-import {CARLOS, MEI, NAO, SANADA} from "./assets/profile_others";
+import {CARLOS, MEI, SANADA} from "./assets/profile_others";
 import {AKAGI, NAMASHITA, SHIMONO, SUZUKI, TANAKA, YAMAMOTO} from "./assets/profile_coaches";
-import {ADACHI, ASAHI, NABE, NASHITA, NII, UENO, AKEMI} from "./assets/profile_managers";
+import {ADACHI, ASAHI, NABE, NAO, NASHITA, NII, UENO, AKEMI} from "./assets/profile_managers";
 
 const ichigun = {
      title: 'players',
