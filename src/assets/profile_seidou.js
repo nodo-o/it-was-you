@@ -4,7 +4,7 @@ export const SAWAMURA = { name: 'LHP | Sawamura Eijun',
     details: 'Throws Right',
     edu: 'Seidou High School ',
     affiliation: 'NPB - Orix Buffaloes',
-    photo:'/Sawamura.PNG'
+    photo:'/Sawamura.png'
 }
 
 export const CHRIS = { name: 'C | Takigawa Chris Yuu',
@@ -12,7 +12,7 @@ export const CHRIS = { name: 'C | Takigawa Chris Yuu',
     details: 'Throws Right, Bats Right',
     edu: 'Faculty of Commerce, Keio University | Seidou High School ',
     affiliation: 'NPB - Orix Buffaloes',
-    photo:'/Chris.PNG'
+    photo:'/Chris.png'
 }
 
 export const TETSU = { name: '1B | Tetsuya Yuki',
@@ -20,7 +20,7 @@ export const TETSU = { name: '1B | Tetsuya Yuki',
     details: 'Throws Right, Bats Right',
     edu: 'Literature, Hosei University | Seidou High School ',
     affiliation: 'Tokyo Six University Baseball Federation',
-    photo:'/Tetsu.PNG'
+    photo:'/Tetsu.png'
 }
 
 export const RYOUSUKE = { name: '2B | Kominato Ryousuke',
@@ -28,7 +28,7 @@ export const RYOUSUKE = { name: '2B | Kominato Ryousuke',
     details: 'Throws Right, Bats Right',
     edu: 'Medical Engineering, Toin University of Yokohama | Seidou High School ',
     affiliation: 'Kanagawa University Baseball Federation',
-    photo:'/Ryousuke.PNG'
+    photo:'/Ryousuke.png'
 }
 
 export const HARUICHI = { name: 'SS | Kominato Haruichi',
@@ -36,7 +36,7 @@ export const HARUICHI = { name: 'SS | Kominato Haruichi',
     details: 'Throws Right, Bats Left',
     edu: 'Sport and Health Science, Toin University of Yokohama | Seidou High School ',
     affiliation: 'Kanagawa University Baseball Federation',
-    photo:'/Haruichi.PNG'
+    photo:'/Haruichi.png'
 }
 
 
