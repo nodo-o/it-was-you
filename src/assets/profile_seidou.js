@@ -12,7 +12,7 @@ export const CHRIS = { name: 'C | Takigawa Chris Yuu',
     details: 'Throws Right, Bats Right',
     edu: 'Faculty of Commerce, Keio University | Seidou High School ',
     affiliation: 'NPB - Orix Buffaloes',
-    photo:'/Chris.png'
+    photo:'/Chris.PNG'
 }
 
 export const TETSU = { name: '1B | Tetsuya Yuki',
