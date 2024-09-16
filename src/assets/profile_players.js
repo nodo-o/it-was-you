@@ -121,3 +121,11 @@ export const IMAMURA = { name: 'C | Imamura Yoshio',
     affiliation: 'Tokyo Six University Baseball Federation',
     photo:'/Imamura.png'
 }
+
+export const TAKU = { name: 'LHP | Takuya Terada',
+    role: 'Pitcher | 2nd year | Gunma Prefecture',
+    details: 'Throws Right, Bats Right',
+    edu: 'School of Business administration, Meiji University | Osaka Toin High School ',
+    affiliation: 'Tokyo Six University Baseball Federation',
+    photo:'/Imamura.png'
+}

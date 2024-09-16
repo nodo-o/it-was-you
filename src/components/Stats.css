@@ -83,7 +83,7 @@
     display: flex;
     flex-direction: column; /* Stack title and content vertically by default */
     width: 100%;
-    margin-left: 24px; /* Add more space between pitch menu and pitch content */
+    margin-left: 8px; /* Add more space between pitch menu and pitch content */
 }
 
 .pitch-details h2 {
@@ -97,7 +97,7 @@
     flex-direction: column; /* Stack image and description vertically on mobile */
     gap: 16px; /* Add space between the image and description */
     align-items: flex-start; /* Align items at the top */
-    width: 100%;
+    width: 90%;
 }
 
 .pitch-details img {
@@ -126,5 +126,12 @@
     .pitch-content {
         flex-direction: row; /* Place image and description side by side */
         align-items: flex-start;
+    }
+
+    .pitch-details {
+        display: flex;
+        flex-direction: column; /* Stack title and content vertically by default */
+        width: 100%;
+        margin-left: 16px; /* Add more space between pitch menu and pitch content */
     }
 }

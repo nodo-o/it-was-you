@@ -25,7 +25,7 @@ export const TETSU = { name: '1B | Tetsuya Yuki',
 
 export const RYOUSUKE = { name: '2B | Kominato Ryousuke',
     role: 'Second Base/Shortstop | 4th year | Kanagawa Prefecture',
-    details: 'Throws Right, Bats Right',
+    details: 'Throws Right, Bats Left',
     edu: 'Medical Engineering, Toin University of Yokohama | Seidou High School ',
     affiliation: 'Kanagawa University Baseball Federation',
     photo:'/Ryousuke.png'
@@ -33,7 +33,7 @@ export const RYOUSUKE = { name: '2B | Kominato Ryousuke',
 
 export const HARUICHI = { name: 'SS | Kominato Haruichi',
     role: 'Shortstop/Second Base | 2nd year | Kanagawa Perfecture',
-    details: 'Throws Right, Bats Left',
+    details: 'Throws Right, Bats Right',
     edu: 'Sport and Health Science, Toin University of Yokohama | Seidou High School ',
     affiliation: 'Kanagawa University Baseball Federation',
     photo:'/Haruichi.png'

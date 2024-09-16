@@ -1,0 +1,127 @@
+/* Mobile Styles */
+.accordion.mobile {
+    display: block;
+}
+
+.topic {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.topic-title {
+    padding: 15px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.topic-title:hover {
+    background-color: #e0e0e0;
+}
+
+.topic-content {
+    padding: 15px;
+    background-color: #fff;
+}
+
+/* Web Two-Column Layout */
+.two-column.web {
+    display: flex;
+}
+
+.topic-list {
+    width: 30%;
+    border-right: 1px solid #ddd;
+}
+
+.topic-list .topic-title {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.topic-list .topic-title:hover {
+    background-color: #f1f1f1;
+}
+
+.topic-detail {
+    width: 70%;
+    padding: 15px;
+}
+
+.topic-detail .topic-content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .two-column.web {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .accordion.mobile {
+        display: none;
+    }
+}
+
+/* Web Two-Column Layout */
+.two-column.web {
+    display: flex;
+    gap: 20px;
+}
+
+.topic-list {
+    width: 30%;
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+    background-color: #f9f9f9;
+}
+
+.topic-list .topic-title {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.topic-list .topic-title:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+}
+
+.topic-detail {
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.topic-detail:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.topic-detail .topic-content {
+    background-color: #fefefe;
+    padding: 25px;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .two-column.web {
+        display: none;
+    }
+}

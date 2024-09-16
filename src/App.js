@@ -8,6 +8,8 @@ import Tab from "./components/Tab";
 import Tabs from "./components/Tabs";
 import TabContent from "./components/TabContent";
 import TextContent from "./components/TextContent";
+import StoryComponent from "./components/StoryComponent";
+import TriviaComponent from "./components/TriviaComponent";
 
 function App() {
     const [selectedMenu, setSelectedMenu] = useState(null);
@@ -27,29 +29,28 @@ function App() {
             exseidou: SEIDO,
             others: OTHERS
         },
-        trivia: {}
+        //trivia: {}
     };
-/*
-    const tabsData2 = {
-        characters: {
-            main: MAIN,
-            meiji: MEIJI,
-            seidou: SEIDOU
-        },
-        about: {
-            meiji: MEIJI,
-            seidou: SEIDOU
-        },
-    };
-*/
   return (
       <div>
           <main>
         <Header />
               <Menu menuEntry={mainMenu} onSelect={handleSelect} selected={selectedMenu} />
 
-              {!selectedMenu ? <div></div> : (selectedMenu === 'characters' ?
-                  <Examples tab={mainMenu[selectedMenu]} /> : <TextContent />)}
+              {!selectedMenu ? (
+                  <div></div>
+              ) : (
+                  selectedMenu === 'characters' ? (
+                      <Examples tab={mainMenu[selectedMenu]} />
+                  ) : selectedMenu === 'trivia' ? (
+                      <TriviaComponent />
+                  ) : selectedMenu === 'story' ? (
+                      <StoryComponent />
+                  ) : (
+                      <TextContent />
+                  )
+              )}
+
 
               <Footer />
           </main>
