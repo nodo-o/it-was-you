@@ -1,14 +1,12 @@
 /* TabContent.css */
 .text-content {
     background-color: whitesmoke; /* Set the background color to whitesmoke */
-    padding: 20px; /* Add padding for some internal spacing */
     border-radius: 10px; /* Optional: Add rounded corners */
-    height: 300px; /* Set the height to match the Examples component */
-    max-height: 300px; /* Maintain max-height consistency */
     min-height: 100px; /* Maintain min-height consistency */
     margin: 5px; /* Match the margin used in .adjust-height */
     display: flex; /* Flexbox for easy alignment */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    flex-direction: column; /* Stack the children vertically */
 }
