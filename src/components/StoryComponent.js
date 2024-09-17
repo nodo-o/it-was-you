@@ -21,6 +21,7 @@ function StoryComponent() {
             </a>
             <a href={STORY.nume_url} target="_blank">
                 <img src={`${process.env.PUBLIC_URL}${"/nume-art.jpg"}`} alt="Story" className="full-width-image"/>
+                <p className="nume-link">art by @nume_x</p>
             </a>
         </div>
     )
