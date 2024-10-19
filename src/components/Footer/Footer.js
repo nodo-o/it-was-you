@@ -19,7 +19,7 @@ function Footer() {
                 <a href="https://archiveofourown.org/users/nodo" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faBook} />
                 </a>
-                <a href="https://archiveofourown.org/users/nodo" target="_blank" rel="noopener noreferrer">
+                <a href="https://ko-fi.com/nodoo" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faCoffee} />
                 </a>
             </div>
